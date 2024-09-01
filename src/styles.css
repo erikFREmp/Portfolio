@@ -1,1 +1,28 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+    background-image: radial-gradient(ellipse 70% 40% at 50% -20%, #4299e130, #fff0);
+}
+.fondo{
+    background-color: #141921;
+}
+p{
+    color: #c2cbd7;
+    font-family: "Onest Variable", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.imp{
+    color: #f7fafc;
+}
+ul{
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+
+}
+li{
+    margin: 0;
+   padding: 0;
+   color: #c2cbd7;
+    font-family: "Onest Variable", sans-serif;
+}

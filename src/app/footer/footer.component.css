@@ -1,0 +1,27 @@
+.margen-cosas{
+    padding: 2%;
+} 
+.no-margin{
+    margin: 0;
+}
+
+@media screen and (min-width:769px){
+    
+}
+@media screen and (min-width:992px){
+    
+}
+@media screen and (min-width:1200px){
+    .margen-cosas2{
+        padding: 2% 15% 2% 15%;
+    }
+    
+.margen-top2{
+    margin-top: 2%;
+}
+}
+@media screen and (max-width:1200px){
+    .margen-top{
+        margin-top: 5%;
+    }
+}

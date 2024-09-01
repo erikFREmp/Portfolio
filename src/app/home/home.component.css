@@ -1,0 +1,168 @@
+
+.margin_0x{
+    margin: 2% auto 2% auto;
+}
+
+.row_e{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.borde-black{
+    border: 5px solid;
+    padding: 2%;
+    border-radius: 10px;
+}
+.fondo{
+    background-color: #6ea0bf;
+}
+.centrar-izq{
+    align-items: first baseline;
+}
+.margin_no{
+    margin-bottom: 1%;
+}
+.wrap-e{
+    flex-wrap: wrap;
+}
+.hr-clss{
+    border-color: #c2cbd7;
+    opacity: .6;
+    margin-top: 1rem;
+}
+.margen-1{
+    padding: 1% 0 0 0;
+}
+.class-ul{
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+}
+.class-li{
+    padding: 1% 2%;
+    margin-right: 1%;
+    border-radius: 20px;
+    background-color: #1b2028;
+}
+ul{padding: 0;}
+.margin-0{
+    padding: 0;
+    margin: 0;
+}
+.centrar-li{
+    align-items: center;
+    text-align: center;
+}
+.img_auto {
+    width: 100%;
+}
+.row-er{
+    display: flex;
+    flex-wrap: wrap;
+}
+.padding-0e{
+    padding: 0;
+}
+.margen-cosas{
+    padding: 2%;
+}
+.margen-top-1{
+    margin-top: 1%;
+}
+
+.proyecto {
+    overflow: hidden; 
+    position: relative;
+}
+
+
+.proyecto img {
+    transition: transform 0.4s ease; 
+    display: block; 
+}
+
+
+.proyecto:hover img {
+    transform: scale(1.025); 
+}
+.borde-img{
+    border: 1px;
+    border-radius: 10px;
+}
+.margen-arr{
+    margin-top: 2%;
+}
+.margen-arr2{
+    margin-top: 4%;
+}
+.margen-aba{
+    margin-bottom: 2%;
+}
+
+.no-margin{
+    margin: 0;
+}
+
+.button-cv{
+    color: white;
+    background-color: grey;
+    text-decoration: none;
+
+}
+.row-redes{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.margen-redes{
+margin-left: 1%;
+margin-right: 1%;
+}
+.margen-tec{
+    margin: 1%;
+}
+
+@media screen and (min-width: 769px){
+    .md-view1{
+        display: flex;
+        flex-direction: row;
+    }
+    .margen-top-view{
+        margin-top: 2%;
+    }
+
+    
+}
+@media screen and (min-width: 992px){
+    .view-lg-pr{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .margen-view-lg{
+        margin-top: 0;
+    }
+    .borde-lg-img{
+        margin: 2% 0 2% 0;
+    }
+    .view-lg-pr2{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .margeb-lg-tb{
+        margin: 2% 0 2% 0;
+    }
+}
+@media screen and (min-width:1200px){
+    .margen-cosas2{
+        padding: 2% 15% 2% 15%;
+    }
+    .margen-cosas2-i{
+        padding: 1% 15% 1% 15%;
+    }
+}
+@media screen and(max-width:1199px){
+    .margin_0{
+        margin: 2% auto 2% auto;
+    }
+}
